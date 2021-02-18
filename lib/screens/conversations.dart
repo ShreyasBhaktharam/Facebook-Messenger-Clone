@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:facebook_messenger_clone/stories.dart';
 
 class Conversations extends StatefulWidget {
   @override
@@ -64,6 +65,10 @@ class _ConversationsState extends State<Conversations> {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 20,
+              ),
+              stories(),
             ],
           ),
         ),
